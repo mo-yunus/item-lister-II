@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Item Lister</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <h1>Item Lister</h1>
+                </div>
+                <div class="col-2">
+                    <input id="filter" type="text" placeholder="Search items...">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="main-container">
+            <div class="container-1">
+                <div class="col-item-1">
+                    <h2>Add Items</h2>
+                </div>
+                <form id="addForm" class="col-item-2">
+                    <input id="item" class="btn-1" type="text">
+                    <input class="btn-2" type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="container-2">
+                <div>
+                    <h2>Items</h2>
+                </div>
+                <div>
+                    <ul id="items" class="list-group">
+                        <li class="list-group-item">Item 1 <button class="btn-2 delete">X</button></li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
